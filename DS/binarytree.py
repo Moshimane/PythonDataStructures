@@ -9,7 +9,7 @@ class BinaryTree:
     def __init__(self):
         self.root = None
         
-    def add_child(self, root, data):
+    def add_child_to_sorted_tree(self, root, data):
         if root is not None:
             if root.data < data:
                 if root.right is None:
